@@ -1,4 +1,4 @@
-# Getting and Cleaning Data: Course Project: CodeBook
+# CodeBook
 
 ## General description (from features_info.txt of original data)
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
@@ -8,12 +8,12 @@ The first two columns indicate the activities and subjects, respectively.
 The remaining columns contain the means of the variables computed for each combination of activity and subject.
 
 ## Activities carried out by the subjects
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1 WALKING 
+2 WALKING_UPSTAIRS 
+3 WALKING_DOWNSTAIRS 
+4 SITTING 
+5 STANDING 
+6 LAYING 
 
 ## Subjects carrying out the activities
 30 subjects numbered 1 through 30
