@@ -12,9 +12,12 @@ We carried out the following processing to generate the tidy dataset.
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject.  We grouped all of the observations in two levels: first by activity (6 types), and second by subject (30 people).  For each of the resulting combinations, we compute the mean of each of the 79 variables.  Thus the output data has 180 rows and 81 columns (79 variables plus activities and subjects).
 
 ## The tidiness of the output data
-The output dataframe "tidy_data" is tidy in a number of ways.  Each row contains only one observation.  Each column contains only one variable.  The column names are descriptive in that they succinctly describe the information measured by the particular variable.  These variable names are also consistent with the feature names stored in the "features.txt" file of the original dataset, which promotes consistency.
+The output dataframe "tidy_data" is tidy in a number of ways:
+* Each row contains only one observation.
+* Each column contains only one variable.
+* The column names are descriptive in that they succinctly describe the information measured by the particular variable.  These variable names are also consistent with the feature names stored in the "features.txt" file of the original dataset, which promotes consistency.
 
-## Reading the tidy_data file.
+## Reading the tidy_data file
 In order to read and view the output "tidy_data.txt" file, use the following code:
 
 tidy_data <- read.table("tidy_data.txt", header = TRUE)
