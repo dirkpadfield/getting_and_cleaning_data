@@ -8,12 +8,12 @@ The first two columns indicate the activities and subjects, respectively.
 The remaining columns contain the means of the variables computed for each combination of activity and subject.
 
 ## Activities carried out by the subjects
-1 WALKING 
-2 WALKING_UPSTAIRS 
-3 WALKING_DOWNSTAIRS 
-4 SITTING 
-5 STANDING 
-6 LAYING 
+1 WALKING         
+2 WALKING_UPSTAIRS         
+3 WALKING_DOWNSTAIRS         
+4 SITTING         
+5 STANDING         
+6 LAYING         
 
 ## Subjects carrying out the activities
 30 subjects numbered 1 through 30
